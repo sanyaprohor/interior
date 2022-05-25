@@ -796,13 +796,14 @@ textarea.input {
   text-decoration: underline;
 }
 .center__social {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10.9375rem, 100%), 1fr));
 }
 .center__socialref {
-  flex: 1 1 auto;
   font-family: Inter;
   font-size: 0.75rem;
   line-height: calc 1.25;

@@ -1302,6 +1302,9 @@ textarea.input {
   font-weight: 500;
   line-height: 1.2222222222;
 }
+.arrivals-slider__product:hover {
+  text-decoration: underline;
+}
 .arrivals-slider__price {
   line-height: 1.1875;
 }

@@ -3865,7 +3865,7 @@
     }
     function initSliders() {
         if (document.querySelector(".arrivals__slider")) new core(".arrivals-slider__body", {
-            modules: [ Navigation, Pagination, Zoom ],
+            modules: [ Navigation, Pagination ],
             watchOverflow: true,
             observer: true,
             observeParents: true,

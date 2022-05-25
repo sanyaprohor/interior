@@ -235,7 +235,7 @@ textarea.input {
   font-family: Inter;
   font-size: 0.875rem;
   font-weight: 300;
-  line-height: calac(17/14);
+  line-height: 1.2142857143;
   color: inherit;
   text-align: left;
   white-space: nowrap;

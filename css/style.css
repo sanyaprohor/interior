@@ -376,7 +376,7 @@ textarea.input {
 .title {
   font-family: Inter;
   font-size: 1rem;
-  line-height: calc 1.1875;
+  line-height: 1.1875;
   text-transform: uppercase;
   text-align: center;
 }
@@ -802,7 +802,7 @@ textarea.input {
 .center__socialref {
   font-family: Inter;
   font-size: 0.75rem;
-  line-height: calc 1.25;
+  line-height: 1.25;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #665244;
@@ -1439,7 +1439,7 @@ textarea.input {
   align-items: start;
   gap: 0.5rem;
   font-weight: 500;
-  line-height: calc 1.3333333333;
+  line-height: 1.333;
   text-align: center;
   color: #a89c93;
 }

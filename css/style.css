@@ -761,14 +761,14 @@ textarea.input {
     padding-right: calc(1.25rem + 1.5625 * (100vw - 20rem) / 86.25);
   }
 }
-@supports (padding-bottom: clamp( 1.25rem , 1.25rem  +  0vw , 1.25rem )) {
+@supports (padding-bottom: clamp( 1.25rem , 0.6123188406rem  +  3.1884057971vw , 4rem )) {
   .center__ref {
-    padding-bottom: clamp( 1.25rem , 1.25rem  +  0vw , 1.25rem );
+    padding-bottom: clamp( 1.25rem , 0.6123188406rem  +  3.1884057971vw , 4rem );
   }
 }
-@supports not (padding-bottom: clamp( 1.25rem , 1.25rem  +  0vw , 1.25rem )) {
+@supports not (padding-bottom: clamp( 1.25rem , 0.6123188406rem  +  3.1884057971vw , 4rem )) {
   .center__ref {
-    padding-bottom: calc(1.25rem + 0 * (100vw - 20rem) / 86.25);
+    padding-bottom: calc(1.25rem + 2.75 * (100vw - 20rem) / 86.25);
   }
 }
 @supports (padding-left: clamp( 1.25rem , 0.2210144928rem  +  5.1449275362vw , 5.6875rem )) {
@@ -796,10 +796,6 @@ textarea.input {
   text-decoration: underline;
 }
 .center__social {
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(10.9375rem, 100%), 1fr));
 }

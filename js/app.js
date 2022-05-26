@@ -4309,6 +4309,10 @@
             spaceBetween: 40,
             autoHeight: true,
             speed: 800,
+            zoom: {
+                maxRatio: 2,
+                minRatio: 1
+            },
             pagination: {
                 el: ".arrivals-slider__progressbar",
                 type: "progressbar"

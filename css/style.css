@@ -1287,8 +1287,10 @@ textarea.input {
   }
 }
 .arrivals-slider__image {
-  padding-bottom: 124%;
   margin-bottom: 1.5rem;
+}
+.arrivals-slider__image img {
+  max-width: 100%;
 }
 .arrivals-slider__label {
   display: flex;

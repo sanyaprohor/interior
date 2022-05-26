@@ -855,6 +855,16 @@ textarea.input {
     padding-top: calc(1.25rem + 0.9375 * (100vw - 20rem) / 86.25);
   }
 }
+@supports (padding-right: clamp( 1.25rem , 0.8876811594rem  +  1.8115942029vw , 2.8125rem )) {
+  .center__country {
+    padding-right: clamp( 1.25rem , 0.8876811594rem  +  1.8115942029vw , 2.8125rem );
+  }
+}
+@supports not (padding-right: clamp( 1.25rem , 0.8876811594rem  +  1.8115942029vw , 2.8125rem )) {
+  .center__country {
+    padding-right: calc(1.25rem + 1.5625 * (100vw - 20rem) / 86.25);
+  }
+}
 @supports (padding-bottom: clamp( 1.25rem , 1.0326086957rem  +  1.0869565217vw , 2.1875rem )) {
   .center__country {
     padding-bottom: clamp( 1.25rem , 1.0326086957rem  +  1.0869565217vw , 2.1875rem );
